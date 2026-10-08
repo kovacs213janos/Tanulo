@@ -1,0 +1,29 @@
+# Tanulóplatform – egyetlen konténer, az adatok a ./data könyvtárban.
+# Első indítás előtt:  sudo install -d -o 10001 -g 10001 data
+# Elérés: BIND_ADDR (.env) határozza meg, melyik címen figyel a gépen. Alapból csak localhost,
+# mert a szolgáltatás jelszó nélküli – lásd README, „Elérés és védelem”.
+services:
+  tanulo:
+    build: .
+    image: tanulo:latest
+    container_name: tanulo
+    restart: unless-stopped
+    environment:
+      PORT: "8000"
+      MAX_UPLOAD_MB: "${MAX_UPLOAD_MB:-2}"
+      BACKUP_ENABLED: "${BACKUP_ENABLED:-1}"
+      BACKUP_KEEP_DAYS: "${BACKUP_KEEP_DAYS:-14}"
+      LOG_LEVEL: "${LOG_LEVEL:-INFO}"
+      TZ: "${TZ:-Europe/Budapest}"
+    volumes:
+      - ./data:/data
+    ports:
+      - "${BIND_ADDR:-127.0.0.1}:${HOST_PORT:-8000}:8000"
+    # keményítés: csak a /data írható, nincs jogosultság-emelés, nincs capability
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL

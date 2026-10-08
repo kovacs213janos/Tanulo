@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tanuló</title>
+  <meta name="theme-color" content="#fbfbf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#171a21" media="(prefers-color-scheme: dark)">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="/static/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/static/manifest.webmanifest">
+  <link rel="stylesheet" href="/static/app.css">
+  <script>
+    // Téma beállítása még rajzolás előtt, hogy ne villanjon.
+    try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="topbar" id="topbar" hidden>
+    <div class="wrap">
+      <a class="brand" href="#/"><span>Tanuló</span></a>
+      <button class="btn-quiet btn-small" id="theme-btn" type="button" aria-label="Téma váltása"></button>
+      <button class="profile-btn" id="profile-btn" type="button" aria-label="Profil váltása"></button>
+    </div>
+  </header>
+  <main class="wrap" id="app" tabindex="-1"><p class="loading">Betöltés…</p></main>
+  <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+  <noscript><p class="wrap">A tanulófelülethez JavaScript kell.</p></noscript>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+{
+  "schema": "tanulo-csomag/1",
+  "meta": {
+    "id": "tarsadalomtortenet-1-2026osz",
+    "title": "Társadalomtörténet I.",
+    "topic": "Magyar társadalomtörténet 1789–1931: rendiség, dualizmus, első világháború, Horthy-korszak",
+    "subject": "Szociológia",
+    "tags": [
+      "KRE",
+      "vizsga",
+      "dualizmus"
+    ],
+    "level": "BA 1. félév"
+  },
+  "chapters": [
+    {
+      "id": "4",
+      "title": "Magyarország a dualizmus korában I.",
+      "order": 4
+    }
+  ],
+  "cards": [
+    {
+      "id": "c-kvota",
+      "chapter": "4",
+      "front": "Kvóta",
+      "back": "A közös költségekhez való hozzájárulás aránya: **1867-ben 30%**, **1907-ben 36,4%**."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-kozos-mp",
+      "chapter": "4",
+      "question": "Melyik NEM volt közös intézmény?",
+      "options": [
+        "Külügy",
+        "Hadügy",
+        "Közös miniszterelnök",
+        "Közös pénzügy"
+      ],
+      "correct": 2,
+      "explanation": "Közös miniszterelnök nem volt."
+    }
+  ],
+  "tasks": [],
+  "timeline": [
+    {
+      "id": "tl-1867",
+      "date": "1867",
+      "sort_key": 18670000,
+      "event": "Kiegyezés",
+      "chapter": "4"
+    }
+  ],
+  "summary": [
+    {
+      "chapter": "4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Az **Osztrák–Magyar Monarchia** két, elvileg egyenrangú állam."
+        }
+      ]
+    }
+  ],
+  "traps": [
+    {
+      "id": "tr-kozos-mp",
+      "title": "Közös miniszterelnök?",
+      "explanation": "Nem volt."
+    }
+  ]
+}

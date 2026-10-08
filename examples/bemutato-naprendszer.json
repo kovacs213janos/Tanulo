@@ -1,0 +1,116 @@
+{
+  "schema": "tanulo-csomag/1",
+  "meta": {
+    "id": "naprendszer-bemutato",
+    "title": "A Naprendszer – bemutató csomag",
+    "topic": "A Nap, a kőzetbolygók és az óriásbolygók; felfedezések a távcsőtől a Voyagerig",
+    "subject": "Természettudomány",
+    "tags": ["bemutató", "csillagászat", "bolygók"],
+    "level": "5. osztály",
+    "language": "hu",
+    "source_note": "Bemutató csomag a felület kipróbálásához; általános ismeretekből készült.",
+    "exam_info": "Témazáró: 20 perc, **10 feleletválasztós kérdés** és **egy táblázatos feladat**. A bolygók sorrendjét fejből kell tudni.",
+    "generated_at": "2026-10-08"
+  },
+  "chapters": [
+    { "id": "1", "title": "Csillagunk, a Nap", "order": 1 },
+    { "id": "2", "title": "A kőzetbolygók", "order": 2 },
+    { "id": "3", "title": "Az óriásbolygók és a külső Naprendszer", "order": 3 }
+  ],
+  "cards": [
+    { "id": "c-nap-tipus", "chapter": "1", "front": "Milyen égitest a Nap?", "back": "**Csillag**: izzó gázgömb. Energiáját a magjában zajló **magfúzió** adja: hidrogénből hélium keletkezik." },
+    { "id": "c-nap-fenyido", "chapter": "1", "front": "Mennyi idő alatt ér a Nap fénye a Földre?", "back": "Kb. **8 perc** (8 perc 20 másodperc)." },
+    { "id": "c-nap-tomeg", "chapter": "1", "front": "A Naprendszer tömegének mekkora része a Nap?", "back": "Kb. **99,8%**. Minden más (bolygók, holdak, kisbolygók) együtt sem éri el a 0,2%-ot." },
+    { "id": "c-bolygok-sorrend", "chapter": "1", "front": "A bolygók sorrendje a Naptól kifelé", "back": "Merkúr, Vénusz, Föld, Mars,\nJupiter, Szaturnusz, Uránusz, Neptunusz.\n*Kőzetbolygók* belül, *óriásbolygók* kívül." },
+    { "id": "c-kozetbolygo", "chapter": "2", "front": "Melyek a kőzetbolygók, és mi a közös bennük?", "back": "**Merkúr, Vénusz, Föld, Mars.** Szilárd kőzetfelszín, viszonylag kis méret, kevés hold." },
+    { "id": "c-merkur", "chapter": "2", "front": "Merkúr", "back": "A **legkisebb** bolygó, a Naphoz legközelebb kering. Számottevő légköre és holdja nincs." },
+    { "id": "c-venusz", "chapter": "2", "front": "Vénusz", "back": "A **legforróbb** felszínű bolygó (kb. 460 °C) a sűrű szén-dioxid-légkör **üvegházhatása** miatt. Tengelyforgása ellentétes irányú." },
+    { "id": "c-fold-hold", "chapter": "2", "front": "A Föld természetes holdja", "back": "A **Hold**, átlagosan kb. **384 000 km**-re kering." },
+    { "id": "c-mars", "chapter": "2", "front": "Mars", "back": "A „vörös bolygó”: felszínét **vas-oxid** színezi. Két kis holdja a **Phobosz** és a **Deimosz**. Itt van az Olympus Mons, a Naprendszer legmagasabb ismert vulkánja." },
+    { "id": "c-kisbolygoov", "chapter": "3", "front": "Kisbolygóöv", "back": "A **Mars és a Jupiter** pályája között. Legnagyobb tagja a **Ceres**, amely törpebolygó." },
+    { "id": "c-jupiter", "chapter": "3", "front": "Jupiter", "back": "A **legnagyobb** bolygó, gázóriás. A **Nagy Vörös Folt** évszázadok óta fennálló óriási vihar." },
+    { "id": "c-szaturnusz", "chapter": "3", "front": "Szaturnusz", "back": "Feltűnő **gyűrűrendszer** jégből és kőzetdarabokból. Átlagos sűrűsége kisebb a vízénél." },
+    { "id": "c-uranusz", "chapter": "3", "front": "Uránusz", "back": "Jégóriás. Forgástengelye kb. **98°**-kal dől, ezért szinte „az oldalán gurulva” kering." },
+    { "id": "c-neptunusz", "chapter": "3", "front": "Neptunusz", "back": "A legtávolabbi bolygó. Létezését **számításokkal** jósolták meg, és **1846**-ban találták meg." }
+  ],
+  "quiz": [
+    { "id": "q-legnagyobb", "chapter": "3", "question": "Melyik a Naprendszer legnagyobb bolygója?", "options": ["Szaturnusz", "Jupiter", "Neptunusz", "Föld"], "correct": 1, "explanation": "A **Jupiter** a legnagyobb; a Szaturnusz a második." },
+    { "id": "q-legforrobb", "chapter": "2", "question": "Melyik bolygó felszíne a legforróbb?", "options": ["Merkúr", "Vénusz", "Mars", "Jupiter"], "correct": 1, "explanation": "A **Vénusz**, bár a Merkúr közelebb van a Naphoz: a sűrű légkör üvegházhatása csapdába ejti a hőt." },
+    { "id": "q-fenyido", "chapter": "1", "question": "Körülbelül mennyi idő alatt ér a Nap fénye a Földre?", "options": ["8 másodperc", "8 perc", "8 óra", "8 nap"], "correct": 1, "explanation": "Kb. **8 perc**: a fény másodpercenként kb. 300 000 km-t tesz meg, a távolság kb. 150 millió km." },
+    { "id": "q-mars-holdak", "chapter": "2", "question": "Hány holdja van a Marsnak?", "options": ["Egy sincs", "Egy", "Kettő", "Négy"], "correct": 2, "explanation": "Kettő: a **Phobosz** és a **Deimosz**." },
+    { "id": "q-kisbolygoov", "chapter": "3", "question": "Hol található a kisbolygóöv?", "options": ["A Föld és a Mars között", "A Mars és a Jupiter között", "A Neptunuszon túl", "A Vénusz és a Föld között"], "correct": 1, "explanation": "A **Mars és a Jupiter** pályája között. A Neptunuszon túli terület a Kuiper-öv." },
+    { "id": "q-pluto", "chapter": "3", "question": "Melyik évben sorolták át a Plútót a törpebolygók közé?", "options": ["1930", "1977", "2006", "2015"], "correct": 2, "explanation": "**2006**-ban. 1930-ban fedezték fel, 2015-ben a New Horizons szonda közelről lefényképezte." }
+  ],
+  "tasks": [
+    {
+      "id": "t-galilei",
+      "chapter": "3",
+      "title": "Galilei és a Jupiter holdjai",
+      "source": {
+        "caption": "Galilei megfigyelése 1610-ben",
+        "type": "text",
+        "excerpt": true,
+        "text": "1610 januárjában Galileo Galilei saját készítésű távcsövével a Jupiter mellett négy apró fénypontot vett észre. Éjszakáról éjszakára figyelte őket: a helyzetük változott, de mindig a bolygó közelében maradtak. Arra jutott, hogy ezek a Jupiter körül keringő holdak. A felfedezés fontos érv lett amellett, hogy nem minden égitest a Föld körül kering."
+      },
+      "questions": [
+        { "id": "1", "prompt": "Mit vett észre Galilei a Jupiter mellett?", "solution": "Négy apró fénypontot, amelyek helyzete éjszakáról éjszakára változott, de a bolygó közelében maradtak." },
+        { "id": "2", "prompt": "Milyen következtetésre jutott?", "solution": "Hogy ezek a **Jupiter körül keringő holdak**." },
+        { "id": "3", "prompt": "Miért volt fontos ez a felfedezés a Föld-központú világképpel szemben?", "solution": "Mert megmutatta, hogy **nem minden égitest a Föld körül kering**: a Jupiternek saját kísérői vannak." }
+      ]
+    },
+    {
+      "id": "t-bolygo-tablazat",
+      "chapter": "2",
+      "title": "A kőzetbolygók adatai",
+      "source": {
+        "caption": "Néhány bolygó adatai (kerekítve)",
+        "type": "table",
+        "table": {
+          "header": ["Bolygó", "Távolság a Naptól (millió km)", "Keringési idő", "Holdak száma"],
+          "rows": [
+            ["Merkúr", "58", "88 nap", "0"],
+            ["Vénusz", "108", "225 nap", "0"],
+            ["Föld", "150", "365 nap", "1"],
+            ["Mars", "228", "687 nap", "2"]
+          ]
+        }
+      },
+      "questions": [
+        { "id": "1", "prompt": "Melyik bolygónak a legrövidebb a keringési ideje, és miért?", "solution": "A **Merkúré** (88 nap), mert a legközelebb van a Naphoz, a legrövidebb pályán kering." },
+        { "id": "2", "prompt": "Hogyan függ a keringési idő a Naptól való távolságtól?", "solution": "Minél távolabb van a bolygó, annál **hosszabb** a keringési ideje." },
+        { "id": "3", "prompt": "Hány hold tartozik összesen a táblázat bolygóihoz?", "solution": "**3** (Föld: 1, Mars: 2)." }
+      ]
+    }
+  ],
+  "timeline": [
+    { "id": "tl-1543", "date": "1543", "sort_key": 15430000, "event": "Kopernikusz kiadja Nap-központú világképét", "chapter": "1" },
+    { "id": "tl-1610", "date": "1610. január", "sort_key": 16100100, "event": "Galilei felfedezi a Jupiter négy nagy holdját", "chapter": "3" },
+    { "id": "tl-1781", "date": "1781. március 13.", "sort_key": 17810313, "event": "William Herschel felfedezi az Uránuszt", "chapter": "3" },
+    { "id": "tl-1846", "date": "1846. szeptember 23.", "sort_key": 18460923, "event": "Megtalálják a számításokkal megjósolt Neptunuszt", "chapter": "3" },
+    { "id": "tl-1969", "date": "1969. július 20.", "sort_key": 19690720, "event": "Az Apollo–11 űrhajósai leszállnak a Holdra", "chapter": "2" },
+    { "id": "tl-1977", "date": "1977", "sort_key": 19770000, "event": "Útnak indul a Voyager–1 és a Voyager–2", "chapter": "3" },
+    { "id": "tl-1997", "date": "1997. július 4.", "sort_key": 19970704, "event": "A Mars Pathfinder leszáll a Marson", "chapter": "2" },
+    { "id": "tl-2006", "date": "2006", "sort_key": 20060000, "event": "A Plútót a törpebolygók közé sorolják", "chapter": "3" }
+  ],
+  "summary": [
+    { "chapter": "1", "blocks": [
+      { "type": "paragraph", "text": "A **Nap** egy átlagos csillag, a Naprendszer tömegének kb. 99,8%-a. Energiáját a magjában zajló **magfúzió** termeli." },
+      { "type": "list", "items": ["Fénye kb. **8 perc** alatt ér a Földre.", "Körülötte nyolc bolygó kering.", "Kopernikusz 1543-ban írta le a Nap-központú világképet."] }
+    ] },
+    { "chapter": "2", "blocks": [
+      { "type": "heading", "text": "Közös jellemzők" },
+      { "type": "paragraph", "text": "A **kőzetbolygók** (Merkúr, Vénusz, Föld, Mars) kicsik, szilárd felszínűek, és kevés holdjuk van." },
+      { "type": "heading", "text": "Amit érdemes megjegyezni" },
+      { "type": "list", "items": ["Merkúr: a legkisebb.", "Vénusz: a legforróbb (üvegházhatás).", "Mars: vörös, két kis holdja van."] }
+    ] },
+    { "chapter": "3", "blocks": [
+      { "type": "paragraph", "text": "A kisbolygóövön túl keringenek az **óriásbolygók**: a gázóriás Jupiter és Szaturnusz, valamint a jégóriás Uránusz és Neptunusz." },
+      { "type": "list", "items": ["Jupiter: a legnagyobb, Nagy Vörös Folt.", "Szaturnusz: gyűrűk.", "Uránusz: 98°-os tengelyferdeség.", "Neptunusz: számításokkal találták meg (1846)."] }
+    ] }
+  ],
+  "traps": [
+    { "id": "tr-legforrobb", "title": "A Merkúr a legforróbb bolygó?", "explanation": "**Nem.** A Vénusz a legforróbb, bár távolabb van a Naptól: a sűrű légköre üvegházként tartja bent a hőt." },
+    { "id": "tr-pluto", "title": "A Plútó a kilencedik bolygó?", "explanation": "2006 óta **törpebolygó**, a bolygók száma nyolc." },
+    { "id": "tr-fenyev", "title": "A fényév időegység?", "explanation": "**Nem, távolság:** az az út, amelyet a fény egy év alatt megtesz." }
+  ]
+}
